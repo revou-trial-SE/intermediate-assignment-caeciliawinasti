@@ -1,7 +1,7 @@
 .bg-image {
     background-image: url(./assets/bgKD.jpg);
     background-repeat: no-repeat;
-    min-height: 800px;
+    min-height: 900px;
     width: 100%;
     background-size: contain;
     margin: 20px;
@@ -10,25 +10,38 @@
 .welcome-text {
     text-align: center;
     color: rgb(0, 0, 0);
+    font-size: 3vw;
 }
 
 .brand-name {
     text-align: center;
     color: brown;
-    font-size: 100px;
+    font-size: 10vw;
     font-family: lucida handwriting;
+    
 }
 
-.events{
-    padding: 50px 50px;
+.events {
+    padding: 20px;
+    font-size: 4vw;
     text-align: center;
-    color: cornflowerblue;
+    color: rgb(30, 164, 102);
+}
+
+.events-text {
+    text-align: center;
+    font-size: 2vw;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
 .card-title {
     text-align: center;
-}
-
-.ms-3 {
-    color: black;
 }
