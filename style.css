@@ -1,0 +1,17 @@
+.bg-image {
+    background-image: url(../assets/bg3.jpg);
+    background-repeat: no-repeat;
+    min-height: 600px;
+    background-size: cover;
+    margin: 20px;
+}
+
+.welcome-text {
+    padding: 70px 0;
+    text-align: center;
+    color: aliceblue;
+}
+
+.card-title {
+    text-align: center;
+}
